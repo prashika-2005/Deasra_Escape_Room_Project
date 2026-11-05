@@ -1,0 +1,6 @@
+{
+  "name": "The Broken Startup",
+  "description": "An interactive 3D educational escape room investigating NOVALINK's business failure through problem-solving and design thinking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
