@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Run Full App (Launch Chrome & Servers)",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Start Application Stack (Backend + Frontend)"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Application Stack (Node.js)",
+            "program": "${workspaceFolder}/run_all.js",
+            "console": "integratedTerminal"
+        }
+    ]
+}

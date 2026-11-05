@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Application Stack (Backend + Frontend)",
+            "type": "shell",
+            "command": "npm start",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": "^$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "Launching Escape Room App",
+                    "endsPattern": "Escape Room Main Application Server running"
+                }
+            }
+        }
+    ]
+}

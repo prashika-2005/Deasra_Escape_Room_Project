@@ -1,0 +1,14 @@
+{
+  "name": "escape-room-entrepreneur",
+  "version": "1.0.0",
+  "description": "ESCAPE ROOM: The Entrepreneur's Journey | deAsra inspireLIFE",
+  "main": "server.js",
+  "scripts": {
+    "start": "node run_all.js",
+    "start:frontend": "node server.js",
+    "start:backend": "cd backend && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
